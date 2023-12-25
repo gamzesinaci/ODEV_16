@@ -6,6 +6,7 @@ Geliştiricilerin birim testlerini hızlı bir şekilde yazıp yürütmesine ola
 Bir dekoratör işlevi, argümanı olarak başka bir işlevi alır ve genellikle orijinal işlevin davranışını geliştiren veya değiştiren yeni bir işlev döndürür. Bu, işlevlerin kaynak kodlarını doğrudan değiştirmeden işlevlere işlevsellik katabilir ve bu da onu kodun yeniden kullanımı ve soyutlaması için güçlü bir araç haline getirir.
 
 @pytest.mark.parametrize decorator'ü geliştiricinin aynı testi farklı değerler üzerinde tekrar tekrar çalıştırmasına olanak tanır.
+
 import pytest 
 
 def  add ( a, b ): 
